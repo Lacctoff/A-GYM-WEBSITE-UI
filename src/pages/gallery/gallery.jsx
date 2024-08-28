@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <>
       <Header title="Our Gallery" image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident quos similique alias? Deleniti nostrum quia nobis eligendi. lore
+      Explore the energy and dedication of our gym community. Get inspired by the hard work and achievements captured in these moments.
       </Header>
 
       <section className="gallery">

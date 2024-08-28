@@ -13,27 +13,32 @@ const Trainers = () => {
   return (
     <>
       <Header title="Our Trainers" image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aperiam id, soluta enim accusamus provident alias nam atque expedita blanditiis.
+        Meet our dedicated trainers who are here to guide and motivate you. With
+        their expertise and passion, they’ll help you reach your fitness goals.
       </Header>
 
       <section className="trainers">
         <div className="container trainers__container">
-          {
-            trainers.map((trainer) => {
-              return  <Trainer key={trainer.id} image={trainer.image} name={trainer.name} job={trainer.job} socials={
-                [
-                  {icon: <BsInstagram/>, link: trainer.socials[0]},
-                  {icon: <AiOutlineTwitter/>, link: trainer.socials[1]},
-                  {icon: <FaFacebookF/>, link: trainer.socials[2]},
-                  {icon: <FaLinkedinIn/>, link: trainer.socials[3]},
-                ]
-              } />
-            })
-          }
+          {trainers.map((trainer) => {
+            return (
+              <Trainer
+                key={trainer.id}
+                image={trainer.image}
+                name={trainer.name}
+                job={trainer.job}
+                socials={[
+                  { icon: <BsInstagram />, link: trainer.socials[0] },
+                  { icon: <AiOutlineTwitter />, link: trainer.socials[1] },
+                  { icon: <FaFacebookF />, link: trainer.socials[2] },
+                  { icon: <FaLinkedinIn />, link: trainer.socials[3] },
+                ]}
+              />
+            );
+          })}
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default Trainers

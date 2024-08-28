@@ -77,29 +77,30 @@ export const programs = [
 export const values = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        icon: <SiOpenaigym />,
+        title: "Commitment to Excellence",
+        desc: "We are dedicated to providing top-notch facilities, expert trainers, and a supportive community to help you reach your fitness goals."
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        icon: <SiOpenaigym />,
+        title: "Community and Support",
+        desc: "Our gym is more than just a place to work out—it's a community. We motivate and support each other to achieve personal bests."
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        icon: <SiOpenaigym />,
+        title: "Results-Driven Approach",
+        desc: "We focus on delivering tangible results through personalized programs, continuous guidance, and a results-oriented mindset."
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        icon: <SiOpenaigym />,
+        title: "Innovation and Growth",
+        desc: "We continually update our equipment, programs, and knowledge to stay at the cutting edge of the fitness industry."
     }
-]
+];
+
 
 
 
@@ -113,34 +114,35 @@ export const faqs = [
     {
         id: 1,
         question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+        answer: "For most people, exercising 3-5 times a week is ideal. This allows for sufficient rest and recovery while making progress towards your fitness goals."
     },
     {
         id: 2,
         question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+        answer: "The best time to work out is when you feel most energetic and can stay consistent. Whether it's morning, afternoon, or evening, the key is to find a time that fits your schedule."
     },
     {
         id: 3,
         question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        answer: "Workouts should typically last between 45 minutes to an hour. This timeframe is enough to include a warm-up, main workout, and cool-down, making your session effective without overtraining."
     },
     {
         id: 4,
         question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        answer: "Yes, warming up is crucial. It prepares your body for exercise by increasing blood flow to muscles, enhancing flexibility, and reducing the risk of injury."
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "Should I do strength training, cardio, or both?",
+        answer: "A balanced fitness routine includes both strength training and cardio. Strength training builds muscle and increases metabolism, while cardio improves heart health and endurance."
     },
     {
         id: 6,
         question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        answer: "Yes, lifting weights is highly effective for strength training. It helps build muscle mass, increase strength, and improve bone density. Start with lighter weights and focus on form before progressing."
     }
-]
+];
+
 
 
 
@@ -153,39 +155,39 @@ export const testimonials = [
     {
         id: 1,
         name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "Joining this gym was the best decision I've ever made! The trainers are amazing, and I've seen incredible results in just a few months.",
         job: "Student",
         avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
         name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Egineer",
+        quote: "The community here is so supportive! Whether you're a beginner or an experienced athlete, there's something for everyone. I've never felt more motivated.",
+        job: "Software Engineer",
         avatar: require("./images/avatar2.jpg")
     },
     {
         id: 3,
         name: "Edem Quist",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        quote: "The personal training sessions are worth every penny. My trainer has tailored a program specifically for my needs, and the progress has been phenomenal.",
         job: "University Lecturer",
         avatar: require("./images/avatar3.jpg")
     },
     {
         id: 4,
         name: "Grace Lavoe",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
+        quote: "This gym feels like a second home. From the friendly staff to the state-of-the-art equipment, it's the perfect place to work on myself.",
+        job: "Marketing Specialist",
         avatar: require("./images/avatar4.jpg")
     },
     {
         id: 5,
         name: "Nana Yaa Dankwa",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        quote: "I've been to many gyms, but this one stands out for its focus on members' progress and well-being. It's not just a workout; it's a lifestyle change.",
         job: "Pharmacist",
         avatar: require("./images/avatar5.jpg")
     }
-]
+];
 
 
 
@@ -279,28 +281,28 @@ export const trainers = [
     {
         id: 1,
         image: Trainer1,
-        name: 'John Doe',
+        name: 'Jegede Samuel',
         job: 'Aerobic Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
         image: Trainer2,
-        name: 'Daniel vinyo',
+        name: 'Lacctoff D.',
         job: 'Speed Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
         image: Trainer3,
-        name: 'Edem Quist',
+        name: 'Ahmed Yakub',
         job: 'Flexibility Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
         image: Trainer4,
-        name: 'Shatta Wale',
+        name: 'Akintoye Opeyemi',
         job: 'Body Composition Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
@@ -314,7 +316,7 @@ export const trainers = [
     {
         id: 6,
         image: Trainer6,
-        name: 'Wayne Carter',
+        name: 'Bosun Adelakun',
         job: 'Physical Intelligence Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
