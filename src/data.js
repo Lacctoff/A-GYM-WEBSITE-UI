@@ -38,33 +38,34 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <SiOpenaigym />,
+        title: "Strength Training",
+        info: "Build muscle, increase strength, and push your limits with our expert-guided strength training sessions.",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <SiOpenaigym />,
+        title: "Cardio Blast",
+        info: "Boost your endurance and burn calories fast with high-energy cardio workouts designed for all fitness levels.",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <SiOpenaigym />,
+        title: "Flexibility & Mobility",
+        info: "Enhance your range of motion and reduce the risk of injury with exercises focused on flexibility and mobility.",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <SiOpenaigym />,
+        title: "Personal Training",
+        info: "Get customized workout plans and one-on-one coaching tailored to your specific fitness goals.",
         path: "/programs/444"
     }
-]
+];
+
 
 
 

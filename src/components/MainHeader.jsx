@@ -9,7 +9,7 @@ const MainHeader = () => {
           <h4>#100DaysOfWorkOut</h4>
           <h1>Join The Legends of The Fitness World</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita vero voluptas qui repudiandae eligendi tenetur?
+            Push Limits, Break Barriers, and Redefine Fitness with Us. Become the Best Version of Yourself 
           </p>
           <Link to="/plans" className= 'btn lg'>Get Started</Link>
         </div>
